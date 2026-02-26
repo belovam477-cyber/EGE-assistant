@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Environment variables
+.env
+.streamlit/secrets.toml
+
+# Vector database
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
