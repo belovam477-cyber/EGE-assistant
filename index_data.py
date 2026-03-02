@@ -9,7 +9,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # --- Конфигурация ---
 INPUT_FILE = "data_clean.jsonl"
 CHROMA_PATH = "./chroma_db"
-EMBEDDING_MODEL = "intfloat/multilingual-e5-small"
+EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 print("Текущая директория:", os.getcwd())
 print("Файлы в папке:", os.listdir())
