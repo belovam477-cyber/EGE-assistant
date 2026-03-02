@@ -6,7 +6,7 @@ from langchain_gigachat import GigaChat
 # --- Конфигурация ---
 CHROMA_PATH = "./chroma_db"
 EMBEDDING_MODEL = "intfloat/multilingual-e5-small"
-GIGACHAT_CREDENTIALS = "MDE5YzdiZjItZWZjNi03NjEyLWE3ZmItODI3MzQyNzVhMzkwOjYwNmIzM2Y2LTJlZjUtNDY4MC1hOTMyLWRhNTJiNDY4YWI1OQ=="  # Вставьте сюда ваш ключ
+GIGACHAT_CREDENTIALS = "API_KEY"
 GIGACHAT_SCOPE = "GIGACHAT_API_PERS"
 
 # Загружаем эмбеддинги и базу
