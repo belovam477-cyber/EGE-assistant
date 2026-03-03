@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 # --- Конфигурация ---
 CHROMA_PATH = "./chroma_db"
 EMBEDDING_MODEL = "intfloat/multilingual-e5-small"
-DEEPSEEK_API_KEY = "sk-fe6c278f78514b51be27df9913e0beb8"
+DEEPSEEK_API_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 DEEPSEEK_MODEL = "deepseek-chat"
 
