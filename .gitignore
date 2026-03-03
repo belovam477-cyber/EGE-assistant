@@ -9,7 +9,7 @@ env/
 .streamlit/secrets.toml
 
 # Vector database
-chroma_db/
+#chroma_db/
 
 # IDE
 .vscode/
