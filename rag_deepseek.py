@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI  # используем ChatOpenAI дл�
 # --- Конфигурация ---
 CHROMA_PATH = "./chroma_db"
 EMBEDDING_MODEL = "intfloat/multilingual-e5-small"
-DEEPSEEK_API_KEY = "sk-fe6c278f78514b51be27df9913e0beb8"  # ваш DeepSeek API ключ
+DEEPSEEK_API_KEY = "DEEPSEEK_API_KEY"  # ваш DeepSeek API ключ
 DEEPSEEK_BASE_URL = "DEEPSEEK_API_KEY"  # эндпоинт DeepSeek
 DEEPSEEK_MODEL = "deepseek-chat"  # или "deepseek-coder", если нужно
 
